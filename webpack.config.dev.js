@@ -14,7 +14,11 @@ Config.devServer = {
 	contentBase: __dirname,
 	publicPath: "/",
 	hot: true,
-	open: true
+	open: true,
+	// proxy: [{
+	// 	context: ['**', '!/assets/**'],
+	// 	target: 'http://localhost:5000'
+	// }]
 };
 
 
